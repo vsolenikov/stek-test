@@ -1,0 +1,26 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.main-div{
+    padding: 170px 50px;
+}
+header{
+    background: white;
+    padding: 20px 5%;
+    margin: auto;
+    width: 100%;
+    border-bottom: solid red 2px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    position: fixed;
+}
+ul li{
+    list-style-type: none;
+}
+ul:first-child::before{
+    content: '';
+}
+ul::before{
+    content: "+";
+}
+
